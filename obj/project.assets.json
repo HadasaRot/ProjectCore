@@ -474,9 +474,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\לימודים שנה ב\\Core\\ProjectCore\\ProjectCore2.csproj",
-      "projectName": "ProjectCore2",
-      "projectPath": "C:\\לימודים שנה ב\\Core\\ProjectCore\\ProjectCore2.csproj",
+      "projectUniqueName": "C:\\לימודים שנה ב\\Core\\ProjectCore\\ProjectCore.csproj",
+      "projectName": "ProjectCore",
+      "projectPath": "C:\\לימודים שנה ב\\Core\\ProjectCore\\ProjectCore.csproj",
       "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
       "outputPath": "C:\\לימודים שנה ב\\Core\\ProjectCore\\obj\\",
       "projectStyle": "PackageReference",
