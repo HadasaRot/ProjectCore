@@ -14,7 +14,7 @@ function addItem() {
 
     const item = {
         name: addNameTextbox.value.trim(),
-        category: parseInt(addCategorySelect.value, 10) // המרת ערך הקטגוריה למספר
+        category: parseInt(addCategorySelect.value, 10) 
     };
 
     fetch(uri, {
@@ -29,7 +29,7 @@ function addItem() {
         .then(() => {
             getItems();
             addNameTextbox.value = '';
-            addCategorySelect.value = ''; // איפוס השדות לאחר הוספה
+            addCategorySelect.value = ''; 
         })
         .catch(error => console.error('Unable to add item.', error));
 }
