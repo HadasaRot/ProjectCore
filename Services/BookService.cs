@@ -2,6 +2,9 @@ using ProjectCore;
 using ProjectCore.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.Extensions.DependencyInjection;
+
+
 
 namespace ProjectCore.Services
 {
@@ -49,4 +52,13 @@ namespace ProjectCore.Services
 
         public int Count { get => ListBooks.Count(); }
     }
+    
+    public static class BookServiceHelper
+    {
+        public static void AddPizzaService(this IServiceCollection services)
+        {
+            services.AddSingleton<IBookService , BookService>();    
+        }
+    }
+
 }

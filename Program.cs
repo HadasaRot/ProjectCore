@@ -15,8 +15,9 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "KsPizza", Version = "v1" });
 });
 
-builder.Services.AddSingleton<IBookService, BookService>();
+//builder.Services.AddSingleton<IBookService, BookService>();
 
+builder.Services.AddPizzaService();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
