@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using ProjectCore.Middlewares;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,9 +16,9 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "KsPizza", Version = "v1" });
 });
 
-//builder.Services.AddSingleton<IBookService, BookService>();
+builder.Services.AddSingleton<IBookService, BookService>();
 
-builder.Services.AddPizzaService();
+builder.Services.AddBookService();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -29,6 +30,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseErrorHandlingMiddleware();
+
 /*js*/
 app.UseDefaultFiles();
 app.UseStaticFiles();

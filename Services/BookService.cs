@@ -23,7 +23,16 @@ namespace ProjectCore.Services
         }
 
         public List<Book> GetAll() => ListBooks;
-        public Book? Get(int id) => ListBooks.FirstOrDefault(b => b.Id == id);
+        // public Book? Get(int id) => ListBooks.FirstOrDefault(b => b.Id == id);
+        public Book Get(int id)
+        {
+            var book = ListBooks.FirstOrDefault(b => b.Id == id);
+            if (book == null)
+            {
+                throw new IndexOutOfRangeException($"Book with ID {id} does not exist.");
+            }
+            return book;
+        }
 
         public void Add(Book book)
         {
@@ -32,13 +41,18 @@ namespace ProjectCore.Services
             nextId++;   
         }
 
+        // public void Delete(int id)
+        // {
+        //     var book = Get(id);
+        //     if (book is null)
+        //         return;
+
+        //     ListBooks.Remove(book);
+        // }
         public void Delete(int id)
         {
-            var book = Get(id);
-            if (book is null)
-                return;
-
-            ListBooks.Remove(book);
+          var book = Get(id); // השיטה Get כבר תזרוק שגיאה אם הספר לא נמצא
+          ListBooks.Remove(book);
         }
 
         public void Update(Book book)
@@ -52,10 +66,10 @@ namespace ProjectCore.Services
 
         public int Count { get => ListBooks.Count(); }
     }
-    
+
     public static class BookServiceHelper
     {
-        public static void AddPizzaService(this IServiceCollection services)
+        public static void AddBookService(this IServiceCollection services)
         {
             services.AddSingleton<IBookService , BookService>();    
         }
