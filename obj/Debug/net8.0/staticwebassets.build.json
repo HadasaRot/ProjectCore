@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "7XMdJsyLiz4LDvBCCyhqxZPVkxFo38L4t9HFFsC+zv0=",
+  "Source": "ProjectCore",
+  "BasePath": "_content/ProjectCore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ProjectCore\\wwwroot",
+      "Source": "ProjectCore",
+      "ContentRoot": "C:\\לימודים שנה ב\\Core\\ProjectCore\\wwwroot\\",
+      "BasePath": "_content/ProjectCore",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\לימודים שנה ב\\Core\\ProjectCore\\wwwroot\\css\\site.css",
+      "SourceId": "ProjectCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\לימודים שנה ב\\Core\\ProjectCore\\wwwroot\\",
+      "BasePath": "_content/ProjectCore",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\לימודים שנה ב\\Core\\ProjectCore\\wwwroot\\index.html",
+      "SourceId": "ProjectCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\לימודים שנה ב\\Core\\ProjectCore\\wwwroot\\",
+      "BasePath": "_content/ProjectCore",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\לימודים שנה ב\\Core\\ProjectCore\\wwwroot\\js\\site.js",
+      "SourceId": "ProjectCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\לימודים שנה ב\\Core\\ProjectCore\\wwwroot\\",
+      "BasePath": "_content/ProjectCore",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ]
+}

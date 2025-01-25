@@ -1,0 +1,76 @@
+2025-01-26 01:12:06.678 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-01-26 01:12:06.706 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-26 01:12:06.709 +02:00 [Information] Hosting environment: "Development"
+2025-01-26 01:12:06.712 +02:00 [Information] Content root path: "C:\לימודים שנה ב\Core\ProjectCore"
+2025-01-26 01:12:10.696 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - null null
+2025-01-26 01:12:10.731 +02:00 [Information] Handling request: GET./Books
+2025-01-26 01:12:10.736 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-26 01:12:10.742 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-26 01:12:10.761 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Book] GetAll()" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-26 01:12:10.771 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Book, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-26 01:12:10.843 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.GetAll (ProjectCore)" in 75.5754ms
+2025-01-26 01:12:10.847 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-26 01:12:10.848 +02:00 [Information] Finished handling request: GET./Books, Response Status: 200
+2025-01-26 01:12:10.851 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - 200 null "application/json; charset=utf-8" 155.8079ms
+2025-01-26 01:12:16.741 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - "application/json" 29
+2025-01-26 01:12:16.749 +02:00 [Information] Handling request: POST./Books
+2025-01-26 01:12:16.753 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-26 01:12:16.765 +02:00 [Information] Route matched with "{action = \"Insert\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Insert(ProjectCore.Book)" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-26 01:12:16.803 +02:00 [Information] Executing "CreatedAtActionResult", writing value of type '"ProjectCore.Book"'.
+2025-01-26 01:12:16.829 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.Insert (ProjectCore)" in 60.7758ms
+2025-01-26 01:12:16.832 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-26 01:12:16.834 +02:00 [Information] Finished handling request: POST./Books, Response Status: 201
+2025-01-26 01:12:16.835 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - 201 null "application/json; charset=utf-8" 95.3757ms
+2025-01-26 01:12:16.841 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - null null
+2025-01-26 01:12:16.848 +02:00 [Information] Handling request: GET./Books
+2025-01-26 01:12:16.849 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-26 01:12:16.851 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Book] GetAll()" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-26 01:12:16.854 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Book, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-26 01:12:16.857 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.GetAll (ProjectCore)" in 3.3547ms
+2025-01-26 01:12:16.859 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-26 01:12:16.861 +02:00 [Information] Finished handling request: GET./Books, Response Status: 200
+2025-01-26 01:12:16.863 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - 200 null "application/json; charset=utf-8" 21.5724ms
+2025-01-26 01:13:32.225 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - "application/json" 38
+2025-01-26 01:13:32.229 +02:00 [Information] Handling request: POST./Books
+2025-01-26 01:13:32.230 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-26 01:13:32.231 +02:00 [Information] Route matched with "{action = \"Insert\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Insert(ProjectCore.Book)" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-26 01:13:32.234 +02:00 [Information] Executing "CreatedAtActionResult", writing value of type '"ProjectCore.Book"'.
+2025-01-26 01:13:32.235 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.Insert (ProjectCore)" in 2.341ms
+2025-01-26 01:13:32.236 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-26 01:13:32.239 +02:00 [Information] Finished handling request: POST./Books, Response Status: 201
+2025-01-26 01:13:32.242 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - 201 null "application/json; charset=utf-8" 17.1968ms
+2025-01-26 01:13:32.246 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - null null
+2025-01-26 01:13:32.248 +02:00 [Information] Handling request: GET./Books
+2025-01-26 01:13:32.249 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-26 01:13:32.250 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Book] GetAll()" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-26 01:13:32.251 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Book, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-26 01:13:32.252 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.GetAll (ProjectCore)" in 1.1426ms
+2025-01-26 01:13:32.253 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-26 01:13:32.255 +02:00 [Information] Finished handling request: GET./Books, Response Status: 200
+2025-01-26 01:13:32.258 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - 200 null "application/json; charset=utf-8" 11.169ms
+2025-01-26 01:21:35.181 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books/6""" - "application/json" 70
+2025-01-26 01:21:35.188 +02:00 [Information] Handling request: GET./Books/6
+2025-01-26 01:21:35.190 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.Get (ProjectCore)"'
+2025-01-26 01:21:35.195 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.Book] Get(Int32)" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-26 01:21:35.201 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.Get (ProjectCore)" in 3.8183ms
+2025-01-26 01:21:35.203 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.Get (ProjectCore)"'
+2025-01-26 01:21:35.205 +02:00 [Information] Finished handling request: GET./Books/6, Response Status: 404
+2025-01-26 01:21:35.205 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books/6""" - 404 null "application/json" 24.3913ms
+2025-01-26 01:21:46.972 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books/2""" - "application/json" 70
+2025-01-26 01:21:46.975 +02:00 [Information] Handling request: GET./Books/2
+2025-01-26 01:21:46.976 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.Get (ProjectCore)"'
+2025-01-26 01:21:46.976 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.Book] Get(Int32)" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-26 01:21:46.978 +02:00 [Information] Executing "ObjectResult", writing value of type '"ProjectCore.Book"'.
+2025-01-26 01:21:46.982 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.Get (ProjectCore)" in 3.694ms
+2025-01-26 01:21:46.985 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.Get (ProjectCore)"'
+2025-01-26 01:21:46.988 +02:00 [Information] Finished handling request: GET./Books/2, Response Status: 200
+2025-01-26 01:21:46.989 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books/2""" - 200 null "application/json; charset=utf-8" 17.1306ms
+2025-01-26 01:22:21.191 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books/2""" - "application/json" 70
+2025-01-26 01:22:21.196 +02:00 [Information] Handling request: GET./Books/2
+2025-01-26 01:22:21.197 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.Get (ProjectCore)"'
+2025-01-26 01:22:21.200 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.Book] Get(Int32)" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-26 01:22:21.203 +02:00 [Information] Executing "ObjectResult", writing value of type '"ProjectCore.Book"'.
+2025-01-26 01:22:21.205 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.Get (ProjectCore)" in 2.3214ms
+2025-01-26 01:22:21.208 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.Get (ProjectCore)"'
+2025-01-26 01:22:21.209 +02:00 [Information] Finished handling request: GET./Books/2, Response Status: 200
+2025-01-26 01:22:21.210 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books/2""" - 200 null "application/json; charset=utf-8" 18.7168ms
