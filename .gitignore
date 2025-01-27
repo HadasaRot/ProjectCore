@@ -1,0 +1,30 @@
+# Ignore build outputs
+bin/
+obj/
+Logs/*.txt
+
+# Ignore user-specific files
+*.user
+*.vs/
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.suo
+*.swp
+*.sln.docstates
+
+# Ignore IDE settings
+.vscode/
+.idea/
+
+# Ignore publish outputs
+wwwroot/publish/
+
+# Ignore environment settings
+.env
+.env.*
