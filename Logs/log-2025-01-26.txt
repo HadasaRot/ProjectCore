@@ -74,3 +74,154 @@
 2025-01-26 01:22:21.208 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.Get (ProjectCore)"'
 2025-01-26 01:22:21.209 +02:00 [Information] Finished handling request: GET./Books/2, Response Status: 200
 2025-01-26 01:22:21.210 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books/2""" - 200 null "application/json; charset=utf-8" 18.7168ms
+2025-01-26 01:26:38.469 +02:00 [Information] Request starting "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/Books/1""" - null null
+2025-01-26 01:26:38.474 +02:00 [Information] Handling request: DELETE./Books/1
+2025-01-26 01:26:38.476 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.Delete (ProjectCore)"'
+2025-01-26 01:26:38.481 +02:00 [Information] Route matched with "{action = \"Delete\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Delete(Int32)" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-26 01:26:38.487 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/plain; charset=utf-8"
+2025-01-26 01:26:38.490 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.Delete (ProjectCore)" in 4.2636ms
+2025-01-26 01:26:38.493 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.Delete (ProjectCore)"'
+2025-01-26 01:26:38.494 +02:00 [Information] Finished handling request: DELETE./Books/1, Response Status: 200
+2025-01-26 01:26:38.495 +02:00 [Information] Request finished "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/Books/1""" - 200 1 "text/plain; charset=utf-8" 26.2382ms
+2025-01-26 01:26:38.503 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - null null
+2025-01-26 01:26:38.506 +02:00 [Information] Handling request: GET./Books
+2025-01-26 01:26:38.508 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-26 01:26:38.512 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Book] GetAll()" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-26 01:26:38.514 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Book, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-26 01:26:38.517 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.GetAll (ProjectCore)" in 2.6777ms
+2025-01-26 01:26:38.519 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-26 01:26:38.521 +02:00 [Information] Finished handling request: GET./Books, Response Status: 200
+2025-01-26 01:26:38.522 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - 200 null "application/json; charset=utf-8" 19.4392ms
+2025-01-26 01:26:39.874 +02:00 [Information] Request starting "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/Books/4""" - null null
+2025-01-26 01:26:39.882 +02:00 [Information] Handling request: DELETE./Books/4
+2025-01-26 01:26:39.885 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.Delete (ProjectCore)"'
+2025-01-26 01:26:39.888 +02:00 [Information] Route matched with "{action = \"Delete\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Delete(Int32)" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-26 01:26:39.896 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/plain; charset=utf-8"
+2025-01-26 01:26:39.900 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.Delete (ProjectCore)" in 4.8904ms
+2025-01-26 01:26:39.905 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.Delete (ProjectCore)"'
+2025-01-26 01:26:39.908 +02:00 [Information] Finished handling request: DELETE./Books/4, Response Status: 200
+2025-01-26 01:26:39.912 +02:00 [Information] Request finished "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/Books/4""" - 200 1 "text/plain; charset=utf-8" 37.9271ms
+2025-01-26 01:26:39.917 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - null null
+2025-01-26 01:26:39.922 +02:00 [Information] Handling request: GET./Books
+2025-01-26 01:26:39.924 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-26 01:26:39.928 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Book] GetAll()" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-26 01:26:39.933 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Book, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-26 01:26:39.936 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.GetAll (ProjectCore)" in 3.0634ms
+2025-01-26 01:26:39.940 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-26 01:26:39.943 +02:00 [Information] Finished handling request: GET./Books, Response Status: 200
+2025-01-26 01:26:39.946 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - 200 null "application/json; charset=utf-8" 28.8555ms
+2025-01-26 16:45:29.381 +02:00 [Information] Now listening on: "http://localhost:5198"
+2025-01-26 16:45:29.439 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2025-01-26 16:45:29.443 +02:00 [Information] Hosting environment: "Development"
+2025-01-26 16:45:29.446 +02:00 [Information] Content root path: "C:\לימודים שנה ב\Core\ProjectCore"
+2025-01-26 16:45:40.141 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - null null
+2025-01-26 16:45:40.190 +02:00 [Information] Handling request: GET./Books
+2025-01-26 16:45:40.197 +02:00 [Warning] Failed to determine the https port for redirect.
+2025-01-26 16:45:40.202 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-26 16:45:40.225 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Books\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProjectCore.Book] GetAll()" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-26 16:45:40.237 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[ProjectCore.Book, ProjectCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-01-26 16:45:40.307 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.GetAll (ProjectCore)" in 73.1586ms
+2025-01-26 16:45:40.314 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.GetAll (ProjectCore)"'
+2025-01-26 16:45:40.316 +02:00 [Information] Finished handling request: GET./Books, Response Status: 200
+2025-01-26 16:45:40.322 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books""" - 200 null "application/json; charset=utf-8" 182.9443ms
+2025-01-26 16:46:06.969 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books/2""" - "application/json" 70
+2025-01-26 16:46:06.984 +02:00 [Information] Handling request: POST./Books/2
+2025-01-26 16:46:06.989 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-01-26 16:46:06.994 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-01-26 16:46:06.998 +02:00 [Information] Finished handling request: POST./Books/2, Response Status: 405
+2025-01-26 16:46:07.002 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books/2""" - 405 0 null 33.8761ms
+2025-01-26 16:46:38.965 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - "application/json" 71
+2025-01-26 16:46:38.985 +02:00 [Information] Handling request: POST./Books
+2025-01-26 16:46:38.988 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-26 16:46:39.021 +02:00 [Information] Route matched with "{action = \"Insert\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Insert(ProjectCore.Book)" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-26 16:46:39.087 +02:00 [Information] Executing "CreatedAtActionResult", writing value of type '"ProjectCore.Book"'.
+2025-01-26 16:46:39.132 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.Insert (ProjectCore)" in 102.5672ms
+2025-01-26 16:46:39.139 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-26 16:46:39.144 +02:00 [Information] Finished handling request: POST./Books, Response Status: 201
+2025-01-26 16:46:39.148 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - 201 null "application/json; charset=utf-8" 182.8588ms
+2025-01-26 16:46:57.783 +02:00 [Information] Request starting "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/Books/1""" - "application/json" 71
+2025-01-26 16:46:57.797 +02:00 [Information] Handling request: DELETE./Books/1
+2025-01-26 16:46:57.801 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.Delete (ProjectCore)"'
+2025-01-26 16:46:57.813 +02:00 [Information] Route matched with "{action = \"Delete\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Delete(Int32)" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-26 16:46:57.833 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/plain; charset=utf-8"
+2025-01-26 16:46:57.844 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.Delete (ProjectCore)" in 18.676ms
+2025-01-26 16:46:57.850 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.Delete (ProjectCore)"'
+2025-01-26 16:46:57.856 +02:00 [Information] Finished handling request: DELETE./Books/1, Response Status: 200
+2025-01-26 16:46:57.861 +02:00 [Information] Request finished "HTTP/1.1" "DELETE" "http"://"localhost:5198""""/Books/1""" - 200 1 "text/plain; charset=utf-8" 77.9475ms
+2025-01-26 16:47:16.033 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books/1""" - "application/json" 71
+2025-01-26 16:47:16.049 +02:00 [Information] Handling request: GET./Books/1
+2025-01-26 16:47:16.054 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.Get (ProjectCore)"'
+2025-01-26 16:47:16.061 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.Book] Get(Int32)" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-26 16:47:16.075 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.Get (ProjectCore)" in 4.0872ms
+2025-01-26 16:47:16.085 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.Get (ProjectCore)"'
+2025-01-26 16:47:16.094 +02:00 [Information] Finished handling request: GET./Books/1, Response Status: 404
+2025-01-26 16:47:16.099 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books/1""" - 404 null "application/json" 65.4987ms
+2025-01-26 16:47:36.398 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books/1""" - "application/json" 71
+2025-01-26 16:47:36.405 +02:00 [Information] Handling request: POST./Books/1
+2025-01-26 16:47:36.410 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-01-26 16:47:36.421 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-01-26 16:47:36.426 +02:00 [Information] Finished handling request: POST./Books/1, Response Status: 405
+2025-01-26 16:47:36.430 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books/1""" - 405 0 null 32.0453ms
+2025-01-26 16:47:52.020 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books/2""" - "application/json" 71
+2025-01-26 16:47:52.035 +02:00 [Information] Handling request: POST./Books/2
+2025-01-26 16:47:52.040 +02:00 [Information] Executing endpoint '"405 HTTP Method Not Supported"'
+2025-01-26 16:47:52.045 +02:00 [Information] Executed endpoint '"405 HTTP Method Not Supported"'
+2025-01-26 16:47:52.049 +02:00 [Information] Finished handling request: POST./Books/2, Response Status: 405
+2025-01-26 16:47:52.053 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books/2""" - 405 0 null 33.2623ms
+2025-01-26 16:47:59.350 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books/2""" - "application/json" 71
+2025-01-26 16:47:59.379 +02:00 [Information] Handling request: GET./Books/2
+2025-01-26 16:47:59.382 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.Get (ProjectCore)"'
+2025-01-26 16:47:59.388 +02:00 [Information] Route matched with "{action = \"Get\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[ProjectCore.Book] Get(Int32)" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-26 16:47:59.398 +02:00 [Information] Executing "ObjectResult", writing value of type '"ProjectCore.Book"'.
+2025-01-26 16:47:59.406 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.Get (ProjectCore)" in 8.4788ms
+2025-01-26 16:47:59.412 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.Get (ProjectCore)"'
+2025-01-26 16:47:59.418 +02:00 [Information] Finished handling request: GET./Books/2, Response Status: 200
+2025-01-26 16:47:59.424 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/Books/2""" - 200 null "application/json; charset=utf-8" 73.0177ms
+2025-01-26 16:48:15.192 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - "application/json" 71
+2025-01-26 16:48:15.199 +02:00 [Information] Handling request: POST./Books
+2025-01-26 16:48:15.226 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-26 16:48:15.230 +02:00 [Information] Route matched with "{action = \"Insert\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Insert(ProjectCore.Book)" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-26 16:48:15.241 +02:00 [Information] Executing "CreatedAtActionResult", writing value of type '"ProjectCore.Book"'.
+2025-01-26 16:48:15.248 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.Insert (ProjectCore)" in 8.9648ms
+2025-01-26 16:48:15.255 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-26 16:48:15.261 +02:00 [Information] Finished handling request: POST./Books, Response Status: 201
+2025-01-26 16:48:15.267 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - 201 null "application/json; charset=utf-8" 74.3993ms
+2025-01-26 16:48:27.230 +02:00 [Information] Request starting "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - "application/json" 71
+2025-01-26 16:48:27.242 +02:00 [Information] Handling request: POST./Books
+2025-01-26 16:48:27.243 +02:00 [Information] Executing endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-26 16:48:27.251 +02:00 [Information] Route matched with "{action = \"Insert\", controller = \"Books\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Insert(ProjectCore.Book)" on controller "ProjectCore.Controllers.BooksController" ("ProjectCore").
+2025-01-26 16:48:27.260 +02:00 [Information] Executing "CreatedAtActionResult", writing value of type '"ProjectCore.Book"'.
+2025-01-26 16:48:27.265 +02:00 [Information] Executed action "ProjectCore.Controllers.BooksController.Insert (ProjectCore)" in 5.876ms
+2025-01-26 16:48:27.276 +02:00 [Information] Executed endpoint '"ProjectCore.Controllers.BooksController.Insert (ProjectCore)"'
+2025-01-26 16:48:27.284 +02:00 [Information] Finished handling request: POST./Books, Response Status: 201
+2025-01-26 16:48:27.288 +02:00 [Information] Request finished "HTTP/1.1" "POST" "http"://"localhost:5198""""/Books""" - 201 null "application/json; charset=utf-8" 58.1668ms
+2025-01-26 16:48:35.897 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - "application/json" 71
+2025-01-26 16:48:35.907 +02:00 [Information] Handling request: GET./
+2025-01-26 16:48:35.952 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\לימודים שנה ב\Core\ProjectCore\wwwroot\index.html"'
+2025-01-26 16:48:35.956 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 200
+2025-01-26 16:48:35.959 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 200 2036 "text/html" 61.6478ms
+2025-01-26 16:51:28.560 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - "application/json" 71
+2025-01-26 16:51:28.579 +02:00 [Information] Handling request: GET./
+2025-01-26 16:51:28.591 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\לימודים שנה ב\Core\ProjectCore\wwwroot\index.html"'
+2025-01-26 16:51:28.595 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 200
+2025-01-26 16:51:28.601 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 200 2036 "text/html" 41.852ms
+2025-01-26 16:51:41.734 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - "application/json" 71
+2025-01-26 16:51:41.747 +02:00 [Information] Handling request: GET./
+2025-01-26 16:51:41.752 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\לימודים שנה ב\Core\ProjectCore\wwwroot\index.html"'
+2025-01-26 16:51:41.758 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 200
+2025-01-26 16:51:41.765 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 200 2036 "text/html" 30.5068ms
+2025-01-26 16:52:18.497 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - "application/json" 71
+2025-01-26 16:52:18.511 +02:00 [Information] Handling request: GET./
+2025-01-26 16:52:18.522 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\לימודים שנה ב\Core\ProjectCore\wwwroot\index.html"'
+2025-01-26 16:52:18.528 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 200
+2025-01-26 16:52:18.533 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 200 2036 "text/html" 36.0258ms
+2025-01-26 16:53:39.634 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - "application/json" 71
+2025-01-26 16:53:39.656 +02:00 [Information] Handling request: GET./
+2025-01-26 16:53:39.661 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\לימודים שנה ב\Core\ProjectCore\wwwroot\index.html"'
+2025-01-26 16:53:39.670 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 200
+2025-01-26 16:53:39.675 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 200 2036 "text/html" 41.271ms
+2025-01-26 16:53:47.048 +02:00 [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:5198""""/""" - "application/json" 71
+2025-01-26 16:53:47.062 +02:00 [Information] Handling request: GET./
+2025-01-26 16:53:47.068 +02:00 [Information] Sending file. Request path: '"/index.html"'. Physical path: '"C:\לימודים שנה ב\Core\ProjectCore\wwwroot\index.html"'
+2025-01-26 16:53:47.071 +02:00 [Information] Finished handling request: GET./index.html, Response Status: 200
+2025-01-26 16:53:47.074 +02:00 [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:5198""""/index.html""" - 200 2036 "text/html" 25.5538ms

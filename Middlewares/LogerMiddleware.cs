@@ -23,7 +23,6 @@ namespace ProjectCore.Middlewares
 
     public static class LoggerMiddlewareExtensions
     {
-        // שינוי שם המתודה כדי למנוע את קונפליקט השמות
         public static IApplicationBuilder UseLoggerMiddleware(this IApplicationBuilder builder)
         {
             return builder.UseMiddleware<LoggerMiddleware>();

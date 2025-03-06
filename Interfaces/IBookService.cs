@@ -1,21 +1,21 @@
+
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using ProjectCore;
-
 namespace ProjectCore.Interfaces
 {
     public interface IBookService
     {
-        List<Book> GetAll();
+        IEnumerable<Book> GetAll(string ? token);
 
-        Book ?Get(int id);
+        Book ?Get(int id, string? token);
 
-        void Add(Book pizza);
+        void Add(Book task, string? token);
 
-        void Delete(int id);
+        void Delete(int id, string? token);
 
-        void Update(Book book);
-
-        int Count { get;}//לבדוק?
+        void Update(int id,  Book newBook ,string? token);
+        void DeleteByUserId(int userId);
+        int Count { get;}  
     }
 }

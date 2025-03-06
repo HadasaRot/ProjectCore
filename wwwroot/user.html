@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>User management</title>
+    <link rel="stylesheet" href="css/user.css">
+</head>
+
+<body>
+
+    <div class="user-profile" onclick="toggleEdit()">
+        <div class="avatar" id="startName"></div>
+        <p class="username" id="profileName"></p>
+    </div>
+    
+    
+<div class="edit-profile" id="editProfile">
+    <h3>edit profile</h3>
+    <label for="edit-username">username:</label>
+    <input type="text" id="edit-username" value="">
+    
+    <label for="edit-password">password:</label>
+    <input type="password" id="edit-password2" placeholder="******">
+    
+    <button onclick="saveChanges()">save changes</button>
+    <button onclick="toggleEdit()">cancel</button>
+</div>
+    <h1>User management</h1>
+    <h3>Add User</h3>
+    <form action="javascript:void(0);" onsubmit="addItem()">
+        <input type="text" id="add-username" placeholder="Username" required>
+        <input type="password" id="add-password" placeholder="Password" required>
+        <label for="add-role">Admin</label>
+        <input type="checkbox" id="add-role">
+        <input type="submit" value="Add">
+    </form>
+     <div id="editForm" style="display:none;">
+        <h3>Edit User</h3>
+        <form action="javascript:void(0);" onsubmit="updateItem()">
+            <input type="hidden" id="edit-id">
+            <input type="text" id="edit-name" placeholder="Username">
+            <input type="password" id="edit-password" placeholder="Password">
+            <div id="admin-section" style="display: none;">  
+                <label for="edit-role">Admin</label>
+                <input type="checkbox" id="edit-role">
+            </div>
+            <input type="submit" value="Save">
+            <a onclick="document.getElementById('editForm').style.display='none'" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+    <h3>Users List</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Role (Admin)</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="users"></tbody>
+    </table>
+
+  
+
+    <script src="./js/user.js" asp-append-version="true">
+        getItems();
+    </script>
+</body>
+
+</html>

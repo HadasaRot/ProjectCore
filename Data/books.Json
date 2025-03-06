@@ -1,0 +1,110 @@
+[
+  {
+    "Id": 1,
+    "Name": "A Journey Through Timekkk",
+    "Category": 0,
+    "UserId": 2
+  },
+  {
+    "Id": 2,
+    "Name": "Advanced Mathematics for Engineers",
+    "Category": 1,
+    "UserId": 1
+  },
+  {
+    "Id": 3,
+    "Name": "The Mystery of the Lost City",
+    "Category": 3,
+    "UserId": 2
+  },
+  {
+    "Id": 4,
+    "Name": "The Rise and Fall of Ancient Civilizations",
+    "Category": 4,
+    "UserId": 3
+  },
+  {
+    "Id": 5,
+    "Name": "Exploring the Universe: A Guide to Space",
+    "Category": 5,
+    "UserId": 4
+  },
+  {
+    "Id": 6,
+    "Name": "The Art of Thinking Clearly",
+    "Category": 1,
+    "UserId": 2
+  },
+  {
+    "Id": 7,
+    "Name": "Memoirs of a World Traveler",
+    "Category": 1,
+    "UserId": 23
+  },
+  {
+    "Id": 8,
+    "Name": "Physics for Beginners",
+    "Category": 2,
+    "UserId": 4
+  },
+  {
+    "Id": 10,
+    "Name": "The Evolution of Human Society",
+    "Category": 4,
+    "UserId": 2
+  },
+  {
+    "Id": 11,
+    "Name": "The Wonders of Quantum Mechanics",
+    "Category": 5,
+    "UserId": 3
+  },
+  {
+    "Id": 12,
+    "Name": "The Untold Story of a Legend",
+    "Category": 1,
+    "UserId": 0
+  },
+  {
+    "Id": 13,
+    "Name": "Algebra and Geometry Essentials",
+    "Category": 2,
+    "UserId": 4
+  },
+  {
+    "Id": 14,
+    "Name": "The Last Clue",
+    "Category": 3,
+    "UserId": 2
+  },
+  {
+    "Id": 15,
+    "Name": "The World Wars: A Complete History",
+    "Category": 4,
+    "UserId": 3
+  },
+  {
+    "Id": 16,
+    "Name": "The Science Behind the Stars",
+    "Category": 5,
+    "UserId": 0
+  },
+  {
+    "Id": 17,
+    "Name": "Beyond Good and Evil!!",
+    "Category": 0,
+    "UserId": 0
+  },
+  {
+    "Id": 18,
+    "Name": "Life of a Dreamer",
+    "Category": 1,
+    "UserId": 3
+  },
+  {
+    "Id": 19,
+    "Name": "Chemistry Fundamentals",
+    "Category": 2,
+    "UserId": 5
+  }
+]

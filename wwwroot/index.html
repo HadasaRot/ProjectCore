@@ -1,64 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Book CRUD</title>
-    <link rel="stylesheet" href="css/site.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Document</title>
 </head>
 
 <body>
-    <h1>Book CRUD</h1>
-    <h3>Add</h3>
-    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
-        <input type="text" id="add-name" placeholder="New Book">
-        <select id="add-category">
-            <option value="" disabled selected>Choose a category</option>
-            <option value="0">Biography</option>
-            <option value="1">Textbook</option>
-            <option value="2">Tension</option>
-            <option value="3">History</option>
-            <option value="4">Science</option>
-            <option value="5">Philosophy</option>
-        </select>
-        <input type="submit" value="Add">
-    </form>
-
-    <div id="editForm">
-        <h3>Edit</h3>
-        <form action="javascript:void(0);" onsubmit="updateItem()">
-            <input type="hidden" id="edit-id">
-            <input type="text" id="edit-name">
-            <select id="edit-category">
-                <option value="" disabled selected>Choose a category</option>
-                <option value="0">Biography</option>
-                <option value="1">Textbook</option>
-                <option value="2">Tension</option>
-                <option value="3">History</option>
-                <option value="4">Science</option>
-                <option value="5">Philosophy</option>
-            </select>
-            <input type="submit" value="Save">
-            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
-        </form>
+    <div class="login-container">
+        <h1>Sign In</h1>
+        <from>
+            <label for="">username</label>
+            <input type="text" id="name" placeholder="enter username">
+            <label>password</label>
+            <input type="password" id="passWord" placeholder="enter password">
+            <button onclick="toSend()">sign in</button>
+        </from>
     </div>
-
-    <p id="counter"></p>
-
-    <table>
-        <tr>
-            <th>Category</th>
-            <th>Name</th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tbody id="books"></tbody>
-    </table>
-
-    <script src="js/site.js" asp-append-version="true"></script>
-    <script type="text/javascript">
-        getItems();
-    </script>
 </body>
+
+<script src="./js/login.js"></script>
 
 </html>

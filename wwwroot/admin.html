@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/admin.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="user-profile" onclick="toggleEdit()">
+        <div class="avatar" id="startName"></div>
+        <p class="username" id="profileName"></p>
+    </div>
+    
+    <div class="edit-profile" id="editProfile">
+        <h3>edit profile</h3>
+        <label for="edit-username">username:</label>
+        <input type="text" id="edit-username" value="">
+        
+        <label for="edit-password">password:</label>
+        <input type="password" id="edit-password" placeholder="******">
+        
+        <button onclick="saveChanges()">save changes</button>
+        <button onclick="toggleEdit()">cancel</button>
+    </div>
+    <div class="menu-container">
+        <a href="./book.html" class="menu-item">to display the books</a>
+        <a href="./user.html" class="menu-item">tor user management</a>
+    </div>
+</body>
+<script src="./js/admin.js"></script>
+</html>
+

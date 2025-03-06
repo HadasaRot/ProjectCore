@@ -1,0 +1,80 @@
+[
+  {
+    "UserId": 0,
+    "Username": "yael",
+    "Password": "111",
+    "isAdmin": false
+  },
+  {
+    "UserId": 1,
+    "Username": "rut",
+    "Password": "999",
+    "isAdmin": false
+  },
+  {
+    "UserId": 2,
+    "Username": "hadasa",
+    "Password": "1234",
+    "isAdmin": true
+  },
+  {
+    "UserId": 3,
+    "Username": "moshe",
+    "Password": "@567aq",
+    "isAdmin": false
+  },
+  {
+    "UserId": 4,
+    "Username": "noa",
+    "Password": "999",
+    "isAdmin": false
+  },
+  {
+    "UserId": 5,
+    "Username": "shir",
+    "Password": "shirshir2",
+    "isAdmin": false
+  },
+  {
+    "UserId": 6,
+    "Username": "eli",
+    "Password": "6789",
+    "isAdmin": false
+  },
+  {
+    "UserId": 7,
+    "Username": "miriam",
+    "Password": "7890",
+    "isAdmin": false
+  },
+  {
+    "UserId": 8,
+    "Username": "shlomi",
+    "Password": "s1h2l3o4m5i",
+    "isAdmin": false
+  },
+  {
+    "UserId": 9,
+    "Username": "rivka",
+    "Password": "222",
+    "isAdmin": false
+  },
+  {
+    "UserId": 10,
+    "Username": "tami",
+    "Password": "123",
+    "isAdmin": false
+  },
+  {
+    "UserId": 11,
+    "Username": "tamar",
+    "Password": "555",
+    "isAdmin": false
+  },
+  {
+    "UserId": 13,
+    "Username": "tami",
+    "Password": "123",
+    "isAdmin": false
+  }
+]
